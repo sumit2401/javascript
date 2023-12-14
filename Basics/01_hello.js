@@ -1,6 +1,6 @@
 console.log("Hello world");
 
-console.log("hello this is sumit patel, start learning javascript basic")
+console.log("hello this is sumit patel and i just start learning javascript basic")
 
 //in javascript ";" semicolon are not mandatory, semicolon are usually use to break the line but in js if we write the code in new line it will treat  differently 
 
