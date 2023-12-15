@@ -41,4 +41,8 @@ object
  let score2;
  console.log(typeof score2)
 
-
+let score222= true
+ //if we convert this bollean value into number than the ouput will be "1" 
+ // so for true=> 1/ false=>0
+ console.log(typeof(score222))
+ console.log(Number(score222))
