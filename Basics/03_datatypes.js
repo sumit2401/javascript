@@ -46,3 +46,21 @@ let score222= true
  // so for true=> 1/ false=>0
  console.log(typeof(score222))
  console.log(Number(score222))
+
+
+//now convert into the boolean
+
+ let number= 1320
+ let isBoolean= Boolean(number)
+ console.log(isBoolean)
+
+ /*
+so if we convert number or string into boolean then the outputs are
+
+1=>true
+0=>false
+""=> false
+"sumit"=>true
+but if the value is null then it can't be able to convert into the boolean
+
+ */
