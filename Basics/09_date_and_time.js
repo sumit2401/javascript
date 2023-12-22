@@ -32,3 +32,5 @@ console.log(newDate.getMinutes()); //give the current minutes.. like if the time
 console.log(newDate.getDay()); //give the weak day number like if there is monday then the output is "1", tuesday-"2", wednesday-"3" etc
 
 console.log(myDate.getHours());
+
+// this is a comment by jatin
