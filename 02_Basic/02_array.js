@@ -31,5 +31,21 @@ console.log(allHerose);
 const allHerose1 = marvel_heroes.concat(dc_heores, ind_heroes);
 console.log(allHerose1);
 
+const anotherArray = [1, 2, 3, 4, [1, 2, 3], 6, 7, [1, 2, [1, 2, 3], 4], 8];
 
-const anotherArray = [1,2,3,4,[1,2,3]6]
+const real_another_array = anotherArray.flat(Infinity); //The flat() method of Array creates a new array with all sub-array elements concatenated into it recursively up to the specified depth(mean it can goes very deep like infinity).
+
+console.log(real_another_array);
+
+console.log(Array.isArray("Sumit")); //isArray tells us if the given data is array or not
+console.log(Array.from("Sumit")); //from method convert anything(object and  string) into the array
+
+console.log(Array.from(124213442)); //it can't directly change this value into array thats why it give us an empty array as an output
+
+let score1 = 100;
+let score2 = 200;
+let score3 = 300;
+
+// now if we want to convert these set of elements into array then instead of from we use "of" method
+
+console.log(Array.of(score1, score2, score3));
