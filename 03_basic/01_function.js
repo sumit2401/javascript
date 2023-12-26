@@ -29,7 +29,11 @@ const result = addTwoNumbers(2, 2);
 //ex- (num1,num2) are parameters and (2,2) is arguments
 
 function loginUserMessage(username) {
+  if (!username) {
+    console.log("Please enter your username");
+    return;
+  }
   return `${username} just logged in`;
 }
 
-console.log(loginUserMessage("Sumit"));
+console.log(loginUserMessage());
